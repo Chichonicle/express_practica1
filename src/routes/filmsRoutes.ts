@@ -2,20 +2,20 @@ import { Router } from "express";
 
 const router = Router()
 
-router.get('/films', (req, res) => {
+router.get('/', (req, res) => {
     // logica de lo que quiero hacer/devolver
 
     return res.send('GET FILMS')
 })
 
-router.post('/films', (req, res) => {
+router.post('/', (req, res) => {
     // logica para crear peliculas
     console.log('create');
 
     return res.send('CREATE FILM')
 })
 
-router.put('/films/:id', (req, res) => {
+router.put('/:id', (req, res) => {
     // logica para actualizar peliculas
     // console.log(req.params.id);
 
@@ -25,7 +25,7 @@ router.put('/films/:id', (req, res) => {
     return res.send('UPDATE FILM ' + filmId)
 })
 
-router.delete('/films/:id', (req, res) => {
+router.delete('/:id', (req, res) => {
     // logica para eliminar peliculas
 
     const filmId = req.params.id
