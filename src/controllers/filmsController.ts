@@ -8,4 +8,11 @@ const getFilms = (req:Request, res:Response) => {
     return res.send('GET FILMS')
 }
 
-export {getFilms}
+const createFilm = (req:Request, res:Response) => {
+    // logica para crear peliculas
+    console.log('create');
+
+    return res.send('CREATE FILM')
+}
+
+export {getFilms, createFilm}
