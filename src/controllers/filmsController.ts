@@ -15,4 +15,22 @@ const createFilm = (req:Request, res:Response) => {
     return res.send('CREATE FILM')
 }
 
-export {getFilms, createFilm}
+const updateFilmById = (req: Request, res: Response) => {
+    // logica para actualizar peliculas
+    // console.log(req.params.id);
+
+    const filmId = req.params.id
+    
+
+    return res.send('UPDATE FILM ' + filmId)
+}
+
+const deleteFilmById = (req:Request, res:Response) => {
+    // logica para eliminar peliculas
+
+    const filmId = req.params.id
+
+    return res.send('DELETE FILM ' + filmId)
+}
+
+export {getFilms, createFilm, updateFilmById, deleteFilmById}
