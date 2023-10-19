@@ -33,4 +33,11 @@ const deleteFilmById = (req:Request, res:Response) => {
     return res.send('DELETE FILM ' + filmId)
 }
 
-export {getFilms, createFilm, updateFilmById, deleteFilmById}
+const getFilmById = (req:Request,res:Response) =>{
+    
+    const filmId = req.params.id
+
+    return res.send(`GET FILM WITH id: ${filmId}`)
+}
+
+export {getFilms, createFilm, updateFilmById, deleteFilmById, getFilmById}

@@ -1,0 +1,79 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Pruebas films",
+    "dateExported": "2023-10-19T10:26:55.329Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4ea9e5e9-e440-48fd-89ff-3f59601f20af",
+            "colId": "5fa920e8-da5d-4ada-823b-a5a5aaceff3c",
+            "containerId": "",
+            "name": "localhost:4000/films",
+            "url": "localhost:4000/films",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-10-18T11:12:58.138Z",
+            "modified": "2023-10-18T11:12:58.138Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "064b80c3-4bf0-48d8-948e-5d9712f639a1",
+            "colId": "5fa920e8-da5d-4ada-823b-a5a5aaceff3c",
+            "containerId": "",
+            "name": "localhost:4000/films",
+            "url": "localhost:4000/films",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-10-18T11:13:14.506Z",
+            "modified": "2023-10-18T11:13:14.506Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ef7023eb-bce6-4ab0-bfa4-3dd58e2a358e",
+            "colId": "5fa920e8-da5d-4ada-823b-a5a5aaceff3c",
+            "containerId": "",
+            "name": "localhost:4000/films",
+            "url": "localhost:4000/films",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-10-18T11:13:21.626Z",
+            "modified": "2023-10-18T11:13:21.626Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b802ce51-909a-40e7-b6bc-0d59d5c3913e",
+            "colId": "5fa920e8-da5d-4ada-823b-a5a5aaceff3c",
+            "containerId": "",
+            "name": "localhost:4000/films",
+            "url": "localhost:4000/films",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-10-18T11:13:27.390Z",
+            "modified": "2023-10-18T11:13:27.390Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f5f7bf1d-fe39-425e-ad3a-65a75e00eca2",
+            "colId": "5fa920e8-da5d-4ada-823b-a5a5aaceff3c",
+            "containerId": "",
+            "name": "localhost:4000/films/50",
+            "url": "localhost:4000/films/50",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-10-19T10:26:45.453Z",
+            "modified": "2023-10-19T10:26:45.453Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
