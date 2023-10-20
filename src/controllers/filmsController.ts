@@ -11,6 +11,8 @@ const getFilms = (req:Request, res:Response) => {
 const createFilm = (req:Request, res:Response) => {
     // logica para crear peliculas
     console.log('create');
+    console.log(req.body);
+    
 
     return res.send('CREATE FILM')
 }
@@ -34,7 +36,7 @@ const deleteFilmById = (req:Request, res:Response) => {
 }
 
 const getFilmById = (req:Request,res:Response) =>{
-    
+
     const filmId = req.params.id
 
     return res.send(`GET FILM WITH id: ${filmId}`)
